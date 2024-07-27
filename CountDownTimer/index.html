@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COUNT DOWN TIMER</title>
+    <link rel="stylesheet" href="/CountDownTimer/index.css">
+    <link rel="icon" href="/CountDownTimer/rocket.png">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Count Down Timer</h1>
+            <div class="launch-timer">
+                <div>
+                    <p id="days">00</p>
+                    <span>Days</span>
+                </div>
+                <div>
+                    <p id="hours">00</p>
+                    <span>Hours</span>
+                </div>
+                <div>
+                    <p id="Minutes">00</p>
+                    <span>Minutes</span>
+                </div>
+                <div>
+                    <p id="Seconds">00</p>
+                    <span>Seconds</span>
+                </div>
+            </div>
+
+        </div>
+        <img src="/CountDownTimer/rocket.png" alt="rocket" class="rocket">
+    </div>
+    <script>
+        var countDownDate = new Date("june 30, 2024 15:37:25").getTime();
+
+        var x = setInterval(function(){
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+           
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+
+            document.getElementById('days').innerHTML=days;
+            document.getElementById('hours').innerHTML=hours;
+            document.getElementById('Minutes').innerHTML=minutes;
+            document.getElementById('Seconds').innerHTML=seconds;
+        },1000);
+
+        if(distance<0){
+            clearInterval(x)
+            document.getElementById('days').innerHTML="00";
+            document.getElementById('hours').innerHTML="00";
+            document.getElementById('Minutes').innerHTML="00";
+            document.getElementById('Seconds').innerHTML="00";
+            
+        }
+
+    </script>
+    
+</body>
+</html>

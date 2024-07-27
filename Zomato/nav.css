@@ -1,0 +1,212 @@
+body{
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    
+}
+.nav_img{
+    max-width: 150px;
+    height: 30px;
+    padding-left: 150px;
+    
+}
+
+.nav_sub{
+   
+    height: 60px;
+    width: 700px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    border: 0px;
+    border-radius: 10px;
+    opacity: 1;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    border: 1px solid rgb(232, 232, 232);
+
+}
+.nav_sub_img{
+    height: 20px;
+    width: 20px;
+    padding-right: 10px;
+}
+.nav_sub select{
+    width: 300px;
+    height: 50px;
+    border: 0px;
+    font-size: 15px;
+    color: rgb(105, 105, 105);
+    
+}
+
+.search{
+    height: 30px;
+    width: 30px;
+    padding-left: 10px;
+    border: 0px;
+   
+    
+    cursor: pointer;
+}
+.nav_sub_input{
+    width: 250px;
+    height: 45px;
+    color: rgb(105, 105, 105);
+    border: 0px;
+    
+}
+
+ul button{
+    border: 0px;
+    height: 60px;
+    width: 90px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: white;
+    
+    
+}
+.nav_login{
+    margin-left: 60px;
+    color: rgb(105, 105, 105);
+}
+.nav_signup{
+    color: rgb(105, 105, 105);
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    height:100px ;
+    width: auto;
+    
+    padding-left: 150px;
+
+}
+.header img{
+    padding-left: 40px;
+    height: 30px;
+    width: 30px;
+
+}
+
+.header h2{
+    padding-left: 30px;
+    color: rgb(105, 105, 105);
+    cursor: pointer;
+
+}
+
+.header h2:hover{
+    border-bottom: red 5px solid;
+}
+
+
+
+
+@media screen and (max-width:930px) {
+    .nav{
+        height: 100px;
+        width: auto;
+       
+       align-items: center;
+      
+    }
+
+    .nav img{
+        padding-left: 60px; 
+    }
+    .nav_sub_img{
+        display: none;
+    }
+    select{
+        display: none;
+    }
+    .search{
+        margin-left: 0px;
+        height: 20px;
+        width: 20px;
+    }
+    .nav_sub_input{
+        height: 40px;
+        width: 50;
+    }
+    .nav ul{
+        display: flex;
+        align-items: center;
+       
+        padding: 0px;
+        height: 50px;
+        margin-right: 150px;
+       
+    }
+    .nav_login{
+        height: 30px;
+        width: 80px;
+        margin-left: 0px;
+        font-size: 15px;
+        font-weight: 500px;
+    }
+    .nav_signup{
+        height: 30px;
+        width: 80px;
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 500px;
+
+    }
+
+
+    .header{
+        height: 100px;
+        width: auto;
+       
+       align-items: center;
+       padding-left: 30px;
+
+    }
+    .header img{
+        height: 30px;
+        width: 30px;
+
+    }
+    .header h2{
+        font-size: 20px;
+    }
+    .collections{
+        
+        padding: 0px;
+    }
+    .collections h1{
+        height: 50px;
+        width: auto;
+        align-content: center;
+        font-size: 30px;
+    }
+
+
+
+
+    .body{
+        height: 60px;
+        width: auto;
+
+    }
+    .body h3{
+        font-size: 17px;
+        padding-top: 0px;
+    }
+
+
+    .body2{
+        height: 50px;
+        width: auto;
+       
+        margin-left:0px3;
+
+    } 
+}

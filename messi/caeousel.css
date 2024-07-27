@@ -1,0 +1,96 @@
+#carouselExampleIndicators {
+  margin: 0%;
+}
+
+.lifestyle {
+  background-image: url("https://www.themessistore.com/cdn/shop/files/bg2.jpg?v=1656746584");
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+#life {
+  width: 100vw;
+  height: 600px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.card-body img {
+  width: 10vw;
+}
+.card-body h2 {
+  font-weight: 500;
+}
+.card-body p {
+  font-weight: 500;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+.grid-container {
+  /* display: grid;
+  grid-template-columns: auto auto auto auto; */
+  padding-top: 70px;
+}
+
+.grid-container h5 {
+  /* padding-left: 30px; */
+  cursor: pointer;
+  color: gray;
+}
+
+.vip {
+  background-image: url("https://www.themessistore.com/cdn/shop/files/bg3.jpg?v=1656747441");
+  background-position: center center;
+  background-size: cover;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.vipsub {
+  background-image: url("https://www.themessistore.com/cdn/shop/files/bg1.png?v=1656745915");
+  background-position: top right;
+  background-repeat: no-repeat;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  color: #fff;
+  text-align: center;
+}
+.vipsub h1 {
+  display: block;
+}
+.vipsub h6 {
+  display: block;
+  font-weight: 10px;
+}
+
+.playstore {
+  margin: 3px;
+}
+.phonestore {
+  margin-top: 5px;
+}
+
+.follow {
+  background-image: url("https://www.themessistore.com/cdn/shop/files/bg6.png?v=1656748126");
+  background-position: center center;
+  background-size: cover;
+  padding-top: 20px;
+  padding-left: 50px;
+  text-align: center;
+}
+.gallery {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-left: 30px;
+}
+.imgcard {
+  margin: 10px;
+}
+
+.imgcard img:hover {
+  opacity: 0.5;
+}

@@ -1,0 +1,101 @@
+.footer{
+    /* background: rgb(248, 248, 248); */
+    height: 500px;
+   
+}
+
+.footer_zomato{
+    display: flex;
+    margin-top: 10px;
+    height: 50px;
+}
+
+.footer_zomato img{
+    height:30px;
+    width:150px;
+    padding-left: 150px;
+}
+.footer_select1{
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    margin-left: 650px;
+    padding-left: 20px;
+    border: 1px solid rgb(183, 181, 185);
+}
+.footer_select1_img{
+    height: 10px;
+    width:20px ;
+}
+
+.footer_select2{
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    margin-left:10px ;
+    padding-left: 20px;
+    border: 1px solid rgb(183, 181, 185);
+}
+
+.footer_sub{
+    display: flex;
+    
+    
+    height: 400px;
+}
+
+.social{
+    margin-left:150px;
+    height: 200px;
+}
+.appstore{
+    height: 50px;
+    width: 150px;
+}
+.playstore{
+    height: 50px;
+    width: 150px;
+
+}
+.social_icon img{
+    height: 25px;
+    width: 25px;
+}
+
+
+.learn{
+    height: 200px;
+    margin-left:110px;
+    
+}
+
+.rest{
+    height: 300px;
+    margin-left:100px;
+    
+}
+.zomaverse{
+    height: 300px;
+    margin-left:80px;
+   
+
+}
+.about{
+    height: 300px;
+    margin-left: 140px;
+}
+.about a{
+    color: rgb(105, 105, 105);
+}
+.zomaverse a{
+    color: rgb(105, 105, 105);
+}
+
+.rest a{
+    color: rgb(105, 105, 105);
+}
+.learn a{
+    color: rgb(105, 105, 105);
+}
