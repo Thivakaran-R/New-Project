@@ -11,7 +11,7 @@ import wind_icon from "../assets/wind.png";
 
 const Weather = () => {
   const inputRef = useRef();
-  const [weatherData, setWeatherData] = useState(false); // Use null to signify no data
+  const [weatherData, setWeatherData] = useState(false); 
   const allIcons = {
     "01d": clear_icon,
     "01n": clear_icon,
@@ -58,12 +58,12 @@ const Weather = () => {
       });
     } catch (error) {
       console.error("Error fetching weather data:", error.message);
-      setWeatherData(false); // Reset weather data on error
+      setWeatherData(false);
     }
   };
 
   useEffect(() => {
-    search(); // Default city search on component mount
+    search(); 
   }, []);
 
   return (
