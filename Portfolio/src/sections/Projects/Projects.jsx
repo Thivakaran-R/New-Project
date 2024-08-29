@@ -28,12 +28,12 @@ function Projects() {
           h3="CRUD Application"
           // p="Glasses Shop"
         />
-        {/* <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
-        /> */}
+        <ProjectCard
+          src="https://media.licdn.com/dms/image/C4E12AQGO1XvoQbXQtw/article-cover_image-shrink_600_2000/0/1531221410013?e=2147483647&v=beta&t=v3XlRUnpI7FKrw-ih1IQafn-HiZ-AZDZsppePD2dG3k"
+          link="https://github.com/Thivakaran-R/Project/tree/main/Portfolio"
+          h3="Portfolio"
+          // p="Fitness App"
+        />
       </div>
     </section>
   );
